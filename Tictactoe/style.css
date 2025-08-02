@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(70, 159, 169);
+}
+
+h1{
+    background-color: pink;
+    display:inline;
+    margin: 50px;
+}
+
+.cells{
+    height: 193px;
+    width: 194px;
+    margin: auto;
+    border: 1px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 170px;
+    font-size: 170px;
+    cursor: pointer;
+    
+}
+
+#game{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    color: rgb(75, 122, 208);
+}
+
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 600px;
+    margin: 10px auto;
+    background-color: pink;
+    border: 10px solid rgb(170, 61, 167);
+}
+
+#restart{
+    color: green;
+    background-color: rgb(52, 245, 149);
+    font-size: 50px;
+}
+
+#statusText{
+    color:rgb(223, 26, 105);
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(255, 206, 214);
+    text-align: auto;
+    display:grid;
+    margin : 20px 40%;
+}
